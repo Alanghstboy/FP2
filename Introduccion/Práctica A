@@ -1,0 +1,27 @@
+// Práctica A.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
+//
+
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <iomanip>
+#include <algorithm>
+using namespace std;
+
+int main()
+{
+
+	// 1.1 Declare una variable tipo int que tenga el número de materias que estás cursando actualmente.
+	int numeroMaterias = 5; 
+	cout << "Número de materias cursando: " << numeroMaterias << endl;
+
+	// 1.2 Declare una variable tipo int que guarde el valor del cuatrimestre que estas cursando.
+	int numeroCuatrimestre = 4;
+	cout << "Cuatrimestre actual" << cuatrimestre;
+	cin >> cuatrimestre;
+	cout << endl; 
+
+
+
+	return 0;
+}
