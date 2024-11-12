@@ -1,0 +1,33 @@
+//  : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
+//
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	/*const int TAMANO = 10;
+	int naturales[TAMANO]
+	{ 0,1,2,3,4, };
+	for (int i = 0; i < TAMANO; i++)
+	{
+		cout << naturales[i];
+	}
+	cout << endl; */
+
+	/*	const int TAMANO = 10;
+	int naturales[TAMANO]
+	{ 0,1,2,3,4, };
+	cout << naturales[2] << endl;
+	naturales[2] = -540;
+	cout << naturales[2] << endl;*/
+	
+	const int TAMANO = 10;
+	int naturales[TAMANO]
+	{ 0,1,2,3,4, };
+	for (int elemento : naturales)
+	{
+		cout << elemento << " ,";
+	}
+	cout << endl;
+}
